@@ -1,0 +1,63 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+h2{
+    background-color: #222326;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/*inicio etilo da tabela*/
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 2px solid #000 !important;
+}
+
+table, th, td{
+    border: 1px solid #000;
+    text-align: left;
+}
+
+th, td{
+    padding: 10px;
+}
+
+th{
+    background-color: #3e5902;
+    color: #fff;
+    height: 60px;
+}
+
+caption{ /*adiciona legenda a tabela*/
+    caption-side: bottom;
+    text-align: left;
+}
+
+/* tabela zebrada */
+
+tr:nth-child(even){ /* even = linha par, odd = linha impar*/
+    background-color: #BF3617;
+}
+
+tr:nth-child(odd){ /* even = linha par, odd = linha impar*/
+    background-color: #F2A74B;
+}
+
+tr:hover{
+    background-color: #3d590260;
+}
+
+
+
+
+/*final estilo tabela*/
